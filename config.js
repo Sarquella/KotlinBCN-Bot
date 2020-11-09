@@ -1,6 +1,7 @@
 const config = {
     token: process.env.TOKEN,
-    prefix: "!"
+    prefix: '!',
+    primaryColor: '#24A4F1'
 }
 
 module.exports = config

@@ -1,10 +1,12 @@
-const commands = [
+const rules = require('./commands/rules.js')
 
+const commands = [
+    rules
 ]
 
-const handle = content => {
+const handle = (content, message) => {
     commands.forEach( command => {
-        command.handle(content)
+        command.handle(content, message)
     })
 }
 

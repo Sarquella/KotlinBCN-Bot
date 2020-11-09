@@ -14,8 +14,8 @@ client.on('message', message => {
     const commandPrefix = new RegExp(`^${config.prefix}\\w`)
     if(!commandPrefix.test(message.content)) return
 
-    const command = message.content.substring(config.prefix.length)
-    commands.handle(command)
+    const content = message.content.substring(config.prefix.length)
+    commands.handle(content, message)
 })
 
 client.login(config.token)
