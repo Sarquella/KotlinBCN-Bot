@@ -1,7 +1,9 @@
+const help = require('./commands/help.js')
 const welcome = require('./commands/welcome.js')
 const rules = require('./commands/rules.js')
 
 const commands = [
+    help,
     welcome,
     rules
 ]

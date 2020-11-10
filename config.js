@@ -2,6 +2,7 @@ const config = {
     token: process.env.TOKEN,
     prefix: '!',
     primaryColor: '#24A4F1',
+    botId: '<@775076950217588736>',
     channels: {
         intros: '<#774078002169511957>',
         kotlinGeneral: '<#773823323540946946>',
