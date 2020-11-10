@@ -1,6 +1,8 @@
+const welcome = require('./commands/welcome.js')
 const rules = require('./commands/rules.js')
 
 const commands = [
+    welcome,
     rules
 ]
 
