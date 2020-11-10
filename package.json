@@ -1,15 +1,15 @@
 {
   "name": "KotlinBCN-Bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A helper bot for the KotlinBCN community Discord server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "local": "node -r dotenv/config index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "adria@sarquella.dev",
+  "license": "MIT",
   "devDependencies": {
     "dotenv": "^8.2.0"
   },
